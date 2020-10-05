@@ -1,19 +1,29 @@
-import React, { Component } from "react";
-import "./App.css";
-import Greet from "./components/greet";
-import Welcome from "./components/welcome";
-import JsxWithAndWithout from "./components/jsx";
+import React, { Component } from 'react';
+import './App.css';
+import Greet from './components/greet';
+import Welcome from './components/welcome';
+import JsxWithAndWithout from './components/jsx';
+import PropExample from './examples/props';
+import Message from './examples/states';
 
 const { JsxExample, NonJsxExample } = JsxWithAndWithout;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Greet />
+      <div className='App'>
+        {/* <Greet />
         <Welcome />
         <JsxExample />
-        <NonJsxExample />
+        <NonJsxExample /> */}
+        {/* <PropExample name='rocky'>
+          <p>this is children prop, can be accessed through props.children</p>
+        </PropExample>
+
+        <PropExample name='supe'>
+          <button>click</button>
+        </PropExample> */}
+        <Message />
       </div>
     );
   }
