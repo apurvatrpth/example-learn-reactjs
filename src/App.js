@@ -7,6 +7,7 @@ import PropExample from './examples/props';
 import Message from './examples/states';
 import SetStateExample from './examples/setStateExample';
 import ReactGroupsMultipleCalls from './examples/reactGroupsMultipleCalls';
+import EventHandlers from './examples/eventHandlers';
 
 const { JsxExample, NonJsxExample } = JsxWithAndWithout;
 
@@ -27,7 +28,8 @@ class App extends Component {
         </PropExample> */}
         {/* <Message /> */}
         {/* <SetStateExample /> */}
-        <ReactGroupsMultipleCalls />
+        {/* <ReactGroupsMultipleCalls /> */}
+        <EventHandlers />
       </div>
     );
   }
