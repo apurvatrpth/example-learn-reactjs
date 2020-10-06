@@ -5,6 +5,8 @@ import Welcome from './components/welcome';
 import JsxWithAndWithout from './components/jsx';
 import PropExample from './examples/props';
 import Message from './examples/states';
+import SetStateExample from './examples/setStateExample';
+import ReactGroupsMultipleCalls from './examples/reactGroupsMultipleCalls';
 
 const { JsxExample, NonJsxExample } = JsxWithAndWithout;
 
@@ -23,7 +25,9 @@ class App extends Component {
         <PropExample name='supe'>
           <button>click</button>
         </PropExample> */}
-        <Message />
+        {/* <Message /> */}
+        {/* <SetStateExample /> */}
+        <ReactGroupsMultipleCalls />
       </div>
     );
   }
